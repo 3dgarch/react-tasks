@@ -3,3 +3,17 @@
 consle.log()           >  clg
 import                 >  imp
 componente react       >  rfce
+
+
+
+--------- desplegar page en gitHub ---------
+ npm install gh-pages --save-dev
+
+ package.json   > escripts  >    "deploy":"gh-pages -d dist" 
+
+ vite config    > base: '/react-tasks/'
+
+ add deploy.sh  > desde gitHub > actions > html static
+
+ run comando    > npm run deploy
+
